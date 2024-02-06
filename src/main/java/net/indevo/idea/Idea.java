@@ -8,6 +8,7 @@ import net.indevo.idea.fluid.ModFluidsTypes;
 import net.indevo.idea.item.ModCreativeModeTabs;
 import net.indevo.idea.item.ModItems;
 import net.indevo.idea.loot.ModLootModifiers;
+import net.indevo.idea.recipe.ModRecipes;
 import net.indevo.idea.screen.GemEmpoweringStationScreen;
 import net.indevo.idea.screen.ModMenuTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -47,6 +48,7 @@ public class Idea {
         ModBlockEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

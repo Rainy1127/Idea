@@ -2,11 +2,13 @@ package net.indevo.idea.datagen;
 
 import net.indevo.idea.Idea;
 import net.indevo.idea.block.ModBlocks;
+import net.indevo.idea.datagen.custom.GemEmpoweringRecipeBuilder;
 import net.indevo.idea.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -44,6 +46,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 "idea:raw_tin", "tin", "idea:raw_tin_block", "tin");
         oreSmelting(pWriter, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 0.25f, 200, "tin");
         oreBlasting(pWriter, TIN_SMELTABLES, RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 0.15f, 100, "tin");
+
+        new GemEmpoweringRecipeBuilder(ModItems.RAW_TIN.get(), ModItems.TIN_INGOT.get(), 3)
+                .unlockedBy("has_raw_tin", has(ModItems.RAW_TIN.get())).save(pWriter);
+
+        new GemEmpoweringRecipeBuilder(Items.COAL, Items.DIAMOND, 7)
+                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
