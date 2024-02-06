@@ -1,0 +1,86 @@
+{
+  "item.idea.tin_ingot": "Tin Ingot",
+  "item.idea.raw_tin": "Raw Tin",
+  "item.idea.tin_dust": "Tin Dust",
+  "item.idea.tin_plate": "Tin Plate",
+  "item.idea.tin_rod": "Tin Rod",
+  "item.idea.tin_gear": "Tin Gear",
+  "item.idea.tin_nugget": "Tin Nugget",
+
+  "item.idea.silver_ingot": "Silver Ingot",
+  "item.idea.raw_silver": "Raw Silver",
+  "item.idea.silver_dust": "Silver Dust",
+  "item.idea.silver_plate": "Silver Plate",
+  "item.idea.silver_rod": "Silver Rod",
+  "item.idea.silver_gear": "Silver Gear",
+  "item.idea.silver_nugget": "Silver Nugget",
+
+  "item.idea.titanium_ingot": "Titanium Ingot",
+  "item.idea.raw_titanium": "Raw Titanium",
+  "item.idea.titanium_dust": "Titanium Dust",
+  "item.idea.titanium_plate": "Titanium Plate",
+  "item.idea.titanium_rod": "Titanium Rod",
+  "item.idea.titanium_gear": "Titanium Gear",
+  "item.idea.titanium_nugget": "Titanium Nugget",
+
+  "item.idea.aluminum_ingot": "Aluminum Ingot",
+  "item.idea.raw_aluminum": "Raw Aluminum",
+  "item.idea.aluminum_dust": "Aluminum Dust",
+  "item.idea.aluminum_plate": "Aluminum Plate",
+  "item.idea.aluminum_rod": "Aluminum Rod",
+  "item.idea.aluminum_gear": "Aluminum Gear",
+  "item.idea.aluminum_nugget": "Aluminum Nugget",
+
+  "item.idea.sulfur_dust": "Sulfur Dust",
+  "item.idea.sulfur_crystal": "Sulfur Crystal",
+
+  "item.idea.eight_ball": "Eight Ball",
+
+  "item.idea.resin_ball": "Resin Ball",
+  "item.idea.rubber": "Rubber",
+  "item.idea.cured_rubber": "Cured Rubber",
+
+
+  "item.idea.acid_bucket": "Acid Bucket",
+
+
+  "block.idea.zircon_block": "Block of Zircon",
+
+  "block.idea.tin_ore": "Tin Ore",
+  "block.idea.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.idea.tin_block": "Tin Block",
+  "block.idea.raw_tin_block": "Raw Tin Block",
+
+  "block.idea.silver_ore": "Silver Ore",
+  "block.idea.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.idea.silver_block": "Silver Block",
+  "block.idea.raw_silver_block": "Raw Silver Block",
+
+  "block.idea.titanium_ore": "Titanium Ore",
+  "block.idea.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.idea.titanium_block": "Titanium Block",
+  "block.idea.raw_titanium_block": "Raw Titanium Block",
+
+
+  "block.idea.aluminum_ore": "Aluminum Ore",
+  "block.idea.deepslate_aluminum_ore": "Deepslate Aluminum Ore",
+  "block.idea.aluminum_block": "Aluminum Block",
+  "block.idea.raw_aluminum_block": "Raw Aluminum Block",
+
+  "block.idea.sulfur_ore": "Sulfur Ore",
+  "block.idea.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "block.idea.sulfur_block": "Sulfur Block",
+  "block.idea.raw_sulfur_block": "Raw Sulfur Block",
+
+  "block.idea.rubber_log": "Rubber Log",
+  "block.idea.rubber_planks": "Rubber Planks",
+  "block.idea.rubber_wood": "Rubber Wood",
+  "block.idea.stripped_rubber_log": "Stripped Rubber Log",
+  "block.idea.stripped_rubber_wood": "Stripped Rubber Wood",
+  "block.idea.rubber_leaves": "Rubber Leaves",
+  "block.idea.rubber_sapling": "Rubber Sapling",
+
+  "block.idea.gem_empowering_station": "Gem Empowering Station",
+
+  "creativetab.idea_tab": "Idea"
+}

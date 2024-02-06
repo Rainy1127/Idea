@@ -1,6 +1,19 @@
 package net.indevo.idea;
 
 import com.mojang.logging.LogUtils;
+import net.indevo.idea.block.ModBlocks;
+import net.indevo.idea.block.entity.ModBlockEntities;
+import net.indevo.idea.fluid.ModFluids;
+import net.indevo.idea.fluid.ModFluidsTypes;
+import net.indevo.idea.item.ModCreativeModeTabs;
+import net.indevo.idea.item.ModItems;
+import net.indevo.idea.loot.ModLootModifiers;
+import net.indevo.idea.screen.GemEmpoweringStationScreen;
+import net.indevo.idea.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +34,19 @@ public class Idea {
 
     public Idea() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
+        ModFluidsTypes.register(modEventBus);
+
+        ModFluids.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -45,7 +71,12 @@ public class Idea {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            event.enqueueWork(() -> {
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_ACID.get(), RenderType.translucent());
+                ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_ACID.get(), RenderType.translucent());
 
+                MenuScreens.register(ModMenuTypes.GEM_EMPOWERING_MENU.get(), GemEmpoweringStationScreen::new);
+            });
         }
     }
 }
