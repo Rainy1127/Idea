@@ -35,6 +35,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ALUMINUM_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_ALUMINUM_BLOCK.get());
 
+        this.dropSelf(ModBlocks.STEEL_BLOCK.get());
+        this.dropSelf(ModBlocks.RESONANT_ALLOY_BLOCK.get());
+        this.dropSelf(ModBlocks.BRONZE_BLOCK.get());
+        this.dropSelf(ModBlocks.ELECTRUM_BLOCK.get());
+
 
 
 
@@ -64,6 +69,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_SULFUR_ORE.get(), ModItems.SULFUR_CRYSTAL.get()));
 
         this.dropSelf(ModBlocks.GEM_EMPOWERING_STATION.get());
+
+        this.dropSelf(ModBlocks.RUBBER_LOG.get());
+        this.dropSelf(ModBlocks.RUBBER_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_RUBBER_LOG.get());
+        this.dropSelf(ModBlocks.RUBBER_PLANKS.get());
+        this.dropSelf(ModBlocks.RUBBER_SAPLING.get());
+
+        this.add(ModBlocks.RUBBER_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RUBBER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

@@ -20,7 +20,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.RUBBER_LOG.get().asItem())
+                .add(ModBlocks.RUBBER_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_RUBBER_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_RUBBER_WOOD.get().asItem());
 
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.RUBBER_PLANKS.get().asItem());
 
     }
 

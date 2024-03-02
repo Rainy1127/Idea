@@ -31,7 +31,7 @@ import org.slf4j.Logger;
 @Mod(Idea.MOD_ID)
 public class Idea {
     public static final String MOD_ID = "idea";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Idea() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

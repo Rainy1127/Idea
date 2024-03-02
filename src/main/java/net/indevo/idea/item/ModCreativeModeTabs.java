@@ -50,6 +50,34 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALUMINUM_GEAR.get());
                         output.accept(ModItems.ALUMINUM_NUGGET.get());
 
+                        output.accept(ModItems.STEEL_INGOT.get());
+                        output.accept(ModItems.STEEL_DUST.get());
+                        output.accept(ModItems.STEEL_PLATE.get());
+                        output.accept(ModItems.STEEL_ROD.get());
+                        output.accept(ModItems.STEEL_GEAR.get());
+                        output.accept(ModItems.STEEL_NUGGET.get());
+
+                        output.accept(ModItems.RESONANT_ALLOY_INGOT.get());
+                        output.accept(ModItems.RESONANT_ALLOY_DUST.get());
+                        output.accept(ModItems.RESONANT_ALLOY_PLATE.get());
+                        output.accept(ModItems.RESONANT_ALLOY_ROD.get());
+                        output.accept(ModItems.RESONANT_ALLOY_GEAR.get());
+                        output.accept(ModItems.RESONANT_ALLOY_NUGGET.get());
+
+                        output.accept(ModItems.BRONZE_INGOT.get());
+                        output.accept(ModItems.BRONZE_DUST.get());
+                        output.accept(ModItems.BRONZE_PLATE.get());
+                        output.accept(ModItems.BRONZE_ROD.get());
+                        output.accept(ModItems.BRONZE_GEAR.get());
+                        output.accept(ModItems.BRONZE_NUGGET.get());
+
+                        output.accept(ModItems.ELECTRUM_INGOT.get());
+                        output.accept(ModItems.ELECTRUM_DUST.get());
+                        output.accept(ModItems.ELECTRUM_PLATE.get());
+                        output.accept(ModItems.ELECTRUM_ROD.get());
+                        output.accept(ModItems.ELECTRUM_GEAR.get());
+                        output.accept(ModItems.ELECTRUM_NUGGET.get());
+
                         output.accept(ModItems.SULFUR_CRYSTAL.get());
                         output.accept(ModItems.SULFUR_DUST.get());
 
@@ -81,6 +109,39 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALUMINUM_ORE.get());
                         output.accept(ModBlocks.RAW_ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.DEEPSLATE_ALUMINUM_ORE.get());
+
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.RESONANT_ALLOY_BLOCK.get());
+                        output.accept(ModBlocks.BRONZE_BLOCK.get());
+                        output.accept(ModBlocks.ELECTRUM_BLOCK.get());
+
+                        output.accept(ModBlocks.COPPER_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.IRON_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.DIAMOND_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.REDSTONE_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.COAL_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.GOLD_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.LAPIS_LAZULI_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.EMERALD_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.TIN_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.SILVER_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.SULFUR_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.TITANIUM_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.ALUMINUM_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.FIRMAMENT_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.LAVA_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.WATER_BEDROCK_VEIN.get());
+                        output.accept(ModBlocks.OIL_BEDROCK_VEIN.get());
+
+                        output.accept(ModBlocks.RUBBER_LOG.get());
+                        output.accept(ModBlocks.RUBBER_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+
+                        output.accept(ModBlocks.RUBBER_PLANKS.get());
+                        output.accept(ModBlocks.RUBBER_LEAVES.get());
+
+                        output.accept(ModBlocks.RUBBER_SAPLING.get());
 
 
                         output.accept(ModBlocks.GEM_EMPOWERING_STATION.get());

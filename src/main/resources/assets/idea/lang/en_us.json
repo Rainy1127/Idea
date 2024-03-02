@@ -31,6 +31,34 @@
   "item.idea.aluminum_gear": "Aluminum Gear",
   "item.idea.aluminum_nugget": "Aluminum Nugget",
 
+  "item.idea.steel_ingot": "Steel Ingot",
+  "item.idea.steel_dust": "Steel Dust",
+  "item.idea.steel_plate": "Steel Plate",
+  "item.idea.steel_rod": "Steel Rod",
+  "item.idea.steel_gear": "Steel Gear",
+  "item.idea.steel_nugget": "Steel Nugget",
+
+  "item.idea.resonant_alloy_ingot": "Resonant Alloy Ingot",
+  "item.idea.resonant_alloy_dust": "Resonant Alloy Dust",
+  "item.idea.resonant_alloy_plate": "Resonant Alloy Plate",
+  "item.idea.resonant_alloy_rod": "Resonant Alloy Rod",
+  "item.idea.resonant_alloy_gear": "Resonant Alloy Gear",
+  "item.idea.resonant_alloy_nugget": "Resonant Alloy Nugget",
+
+  "item.idea.bronze_ingot": "Bronze Ingot",
+  "item.idea.bronze_dust": "Bronze Dust",
+  "item.idea.bronze_plate": "Bronze Plate",
+  "item.idea.bronze_rod": "Bronze Rod",
+  "item.idea.bronze_gear": "Bronze Gear",
+  "item.idea.bronze_nugget": "Bronze Nugget",
+
+  "item.idea.electrum_ingot": "Electrum Ingot",
+  "item.idea.electrum_dust": "Electrum Dust",
+  "item.idea.electrum_plate": "Electrum Plate",
+  "item.idea.electrum_rod": "Electrum Rod",
+  "item.idea.electrum_gear": "Electrum Gear",
+  "item.idea.electrum_nugget": "Electrum Nugget",
+
   "item.idea.sulfur_dust": "Sulfur Dust",
   "item.idea.sulfur_crystal": "Sulfur Crystal",
 
@@ -80,7 +108,34 @@
   "block.idea.rubber_leaves": "Rubber Leaves",
   "block.idea.rubber_sapling": "Rubber Sapling",
 
+  "block.idea.copper_bedrock_vein": "Copper Bedrock Vein",
+  "block.idea.iron_bedrock_vein": "Iron Bedrock Vein",
+  "block.idea.diamond_bedrock_vein": "Diamond Bedrock Vein",
+  "block.idea.redstone_bedrock_vein": "Redstone Bedrock Vein",
+  "block.idea.coal_bedrock_vein": "Coal Bedrock Vein",
+  "block.idea.gold_bedrock_vein": "Gold Bedrock Vein",
+  "block.idea.lapis_lazuli_bedrock_vein": "Lapis Lazuli Bedrock Vein",
+  "block.idea.emerald_bedrock_vein": "Emerald Bedrock Vein",
+  "block.idea.tin_bedrock_vein": "Tin Bedrock Vein",
+  "block.idea.silver_bedrock_vein": "Silver Bedrock Vein",
+  "block.idea.sulfur_bedrock_vein": "Sulfur Bedrock Vein",
+  "block.idea.titanium_bedrock_vein": "Titanium Bedrock Vein",
+  "block.idea.aluminum_bedrock_vein": "Aluminum Bedrock Vein",
+  "block.idea.firmament_bedrock_vein": "Firmament Bedrock Vein",
+  "block.idea.oil_bedrock_vein": "Oil Bedrock Vein",
+  "block.idea.lava_bedrock_vein": "Lava Bedrock Vein",
+  "block.idea.water_bedrock_vein": "Water Bedrock Vein",
+
+  "block.idea.steel_block": "Steel Block",
+  "block.idea.resonant_alloy_block": "Resonant Alloy Block",
+  "block.idea.bronze_block": "Bronze Block",
+  "block.idea.electrum_block": "Electrum Block",
+
+
   "block.idea.gem_empowering_station": "Gem Empowering Station",
 
-  "creativetab.idea_tab": "Idea"
+  "creativetab.idea_tab": "Idea",
+
+  "idea.tooltip.liquid.amount.with.capacity": "%s / %s mB",
+  "idea.tooltip.liquid.amount": "%s mB"
 }

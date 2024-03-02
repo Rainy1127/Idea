@@ -71,6 +71,34 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ALUMINUM_GEAR);
         simpleItem(ModItems.ALUMINUM_NUGGET);
 
+//        simpleItem(ModItems.STEEL_INGOT);
+//        simpleItem(ModItems.STEEL_DUST);
+//        simpleItem(ModItems.STEEL_PLATE);
+//        simpleItem(ModItems.STEEL_ROD);
+//        simpleItem(ModItems.STEEL_GEAR);
+//        simpleItem(ModItems.STEEL_NUGGET);
+//
+//        simpleItem(ModItems.RESONANT_ALLOY_INGOT);
+//        simpleItem(ModItems.RESONANT_ALLOY_DUST);
+//        simpleItem(ModItems.RESONANT_ALLOY_PLATE);
+//        simpleItem(ModItems.RESONANT_ALLOY_ROD);
+//        simpleItem(ModItems.RESONANT_ALLOY_GEAR);
+//        simpleItem(ModItems.RESONANT_ALLOY_NUGGET);
+//
+//        simpleItem(ModItems.BRONZE_INGOT);
+//        simpleItem(ModItems.BRONZE_DUST);
+//        simpleItem(ModItems.BRONZE_PLATE);
+//        simpleItem(ModItems.BRONZE_ROD);
+//        simpleItem(ModItems.BRONZE_GEAR);
+//        simpleItem(ModItems.BRONZE_NUGGET);
+//
+//        simpleItem(ModItems.ELECTRUM_INGOT);
+//        simpleItem(ModItems.ELECTRUM_DUST);
+//        simpleItem(ModItems.ELECTRUM_PLATE);
+//        simpleItem(ModItems.ELECTRUM_ROD);
+//        simpleItem(ModItems.ELECTRUM_GEAR);
+//        simpleItem(ModItems.ELECTRUM_NUGGET);
+
         simpleItem(ModItems.SULFUR_CRYSTAL);
         simpleItem(ModItems.SULFUR_DUST);
 
@@ -79,6 +107,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ACID_BUCKET);
 
         complexBlock(ModBlocks.GEM_EMPOWERING_STATION.get());
+
+        saplingItem(ModBlocks.RUBBER_SAPLING);
     }
 
     private ItemModelBuilder complexBlock(Block block) {

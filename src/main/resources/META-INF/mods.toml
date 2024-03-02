@@ -4,23 +4,23 @@ modLoader="javafml" #mandatory
 loaderVersion="${loader_version_range}"
 
 
-license="${mod_license}"
+license="MIT"
 
 [[mods]]
 
-modId="${mod_id}"
+modId="idea"
 
-version="${mod_version}"
+version="1.0.0"
 
-displayName="${mod_name}"
+displayName="Idea"
 
-authors="${mod_authors}" #optional
+authors="IndEvo Studio" #optional
 
 
 
-description='''${mod_description}'''
+description='''A large industrial mod specialized in branching progression, large-scale resource processing, and total automation.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.${mod_id}]] #optional
+[[dependencies.idea]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -34,7 +34,7 @@ description='''${mod_description}'''
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.${mod_id}]]
+[[dependencies.idea]]
     modId="minecraft"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
@@ -45,5 +45,5 @@ description='''${mod_description}'''
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.
-#[features.${mod_id}]
+#[features.idea]
 #openGLVersion="[3.2,)"

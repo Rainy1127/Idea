@@ -74,6 +74,58 @@ public class ModItems {
     public static final RegistryObject<Item> ALUMINUM_NUGGET = ITEMS.register("aluminum_nugget",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_PLATE = ITEMS.register("steel_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_GEAR = ITEMS.register("steel_gear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RESONANT_ALLOY_INGOT = ITEMS.register("resonant_alloy_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RESONANT_ALLOY_DUST = ITEMS.register("resonant_alloy_dust",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RESONANT_ALLOY_PLATE = ITEMS.register("resonant_alloy_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RESONANT_ALLOY_ROD = ITEMS.register("resonant_alloy_rod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RESONANT_ALLOY_GEAR = ITEMS.register("resonant_alloy_gear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RESONANT_ALLOY_NUGGET = ITEMS.register("resonant_alloy_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_DUST = ITEMS.register("bronze_dust",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_PLATE = ITEMS.register("bronze_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_ROD = ITEMS.register("bronze_rod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_GEAR = ITEMS.register("bronze_gear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_PLATE = ITEMS.register("electrum_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_ROD = ITEMS.register("electrum_rod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_GEAR = ITEMS.register("electrum_gear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> SULFUR_DUST = ITEMS.register("sulfur_dust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SULFUR_CRYSTAL = ITEMS.register("sulfur_crystal",

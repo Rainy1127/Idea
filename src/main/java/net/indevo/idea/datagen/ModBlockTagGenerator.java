@@ -41,11 +41,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ALUMINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
 
+                        ModBlocks.STEEL_BLOCK.get(),
+                        ModBlocks.RESONANT_ALLOY_BLOCK.get(),
+                        ModBlocks.BRONZE_BLOCK.get(),
+                        ModBlocks.ELECTRUM_BLOCK.get(),
+
                         ModBlocks.SULFUR_ORE.get(),
                         ModBlocks.DEEPSLATE_SULFUR_ORE.get());
 
 
 
+
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(
+                        ModBlocks.RESONANT_ALLOY_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(
@@ -56,7 +65,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
                         ModBlocks.SULFUR_ORE.get(),
                         ModBlocks.DEEPSLATE_SULFUR_ORE.get());
-
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -74,9 +82,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.ALUMINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_ALUMINUM_ORE.get(),
                         ModBlocks.ALUMINUM_BLOCK.get(),
-                        ModBlocks.RAW_ALUMINUM_BLOCK.get());
+                        ModBlocks.RAW_ALUMINUM_BLOCK.get(),
 
+                        ModBlocks.ELECTRUM_BLOCK.get(),
+                        ModBlocks.BRONZE_BLOCK.get(),
+                        ModBlocks.STEEL_BLOCK.get());
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.RUBBER_LOG.get())
+                .add(ModBlocks.RUBBER_WOOD.get())
+                .add(ModBlocks.STRIPPED_RUBBER_LOG.get())
+                .add(ModBlocks.STRIPPED_RUBBER_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.RUBBER_PLANKS.get());
     }
 
     @Override
